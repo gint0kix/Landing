@@ -1,0 +1,44 @@
+:root{
+    --primary-text:#F9FAF8;
+    --secondary-text:#E5E7EB;
+    --primary-background:#1F2937;
+}
+.Hero,.Footer{
+    background-color: var(--primary-background);
+}
+
+.Hero{
+    font-size: 48px;
+    font-weight: bolder;
+    color:var(--primary-text)
+}
+
+a{
+    font-size: 18px;
+    color:var(--secondary-text);
+}
+
+.Hero .Header{
+    font-size:24px;
+    color:var(--primary-text)
+}
+
+.Info .Header{
+    font-size:36px;
+    font-weight: bolder;
+    color:var(--primary-background);
+}
+
+.Info,.Signup{
+    background-color: white;
+}
+
+.Signup button{
+    background-color: #3882F6;
+}
+.Quote{
+    background-color: var(--secondary-text);
+    font-size: 36px;
+    color:var(--primary-background);
+    font-style: italic;
+}
